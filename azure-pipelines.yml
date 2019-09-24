@@ -24,12 +24,6 @@ stages:
           inputs:
             targetType: 'inline'
             script: |
-              # Write-Host $(resources.container.ACRResourceDefault.type)
-              # Write-Host $(resources.container.ACRResourceDefault.registry)
-              # Write-Host $(resources.container.ACRResourceDefault.repository)
-              # Write-Host $(resources.container.ACRResourceDefault.tag)
-              # Write-Host $(resources.container.ACRResourceDefault.digest)
-              # Write-Host $(resources.container.ACRResourceDefault.location)
               Write-Host $(resources.container.ACRResourceLatest.type)
               Write-Host $(resources.container.ACRResourceLatest.registry)
               Write-Host $(resources.container.ACRResourceLatest.repository)
