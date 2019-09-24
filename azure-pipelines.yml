@@ -8,9 +8,9 @@ resources:
   - container: ACRResourceLatest
     type: ACR
     resourceGroup: RMDev
-    azureSubscription: ARM_Connection
-    registry: asmittaacr
-    repository: iashishmittal/docker-acr
+    azureSubscription: ARM_Manual
+    registry: anshenormdev
+    repository: testimage
 
 stages:
   - stage: stage1
