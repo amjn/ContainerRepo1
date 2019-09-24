@@ -12,11 +12,11 @@ resources:
   #   registry: anshenormdev
   #   repository: testimage:56
   - container: ACRResourceLatest
-    type: ACR
+    type: Dockerregistry
     resourceGroup: RMDev
     azureSubscription: ARM_Manual
     registry: anshenormdev
-    repository: conregistry:65
+    repository: conregistry:66
 
 stages:
   - stage: stage1
