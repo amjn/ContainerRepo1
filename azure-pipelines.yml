@@ -7,7 +7,7 @@ resources:
   #   registry: asmittaacr
   #   repository: iashishmittal/docker-acr:31ad5ccae63ae276641df14298dea6b55bb711e3
   - container: ACRResourceLatest
-    type: ACR
+    type: AzureContainerRepository
     resourceGroup: RMDev
     azureSubscription: ARM_Manual
     registry: anshenormdev
