@@ -15,7 +15,7 @@ resources:
   - container: ACRResourceLatest
     type: ACR
     resourceGroup: RMDev
-    azureSubscription: ARM_Connection
+    azureSubscription: Azure_Rm_Manual
     registry: anshenormdev
     repository: conregistry:7
 
