@@ -3,13 +3,13 @@ resources:
   - container: ACRResourceLatest
     type: ACR
     resourceGroup: RMDev
-    azureSubscription: ARM_Connection
+    azureSubscription: Azure_Rm_Manual
     registry: asmittaacr
     repository: iashishmittal/docker-acr
   # - container: ACRResourceLatest
   #   type: ACR
   #   resourceGroup: RMDev
-  #   azureSubscription: ARM_Connection
+  #   azureSubscription: ARM_Connection:31ad5ccae63ae276641df14298dea6b55bb711e3
   #   registry: anshenormdev
   #   repository: testimage:56
   # - container: ACRResourceLatest
