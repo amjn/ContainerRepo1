@@ -17,7 +17,7 @@ resources:
     resourceGroup: RMDev
     azureSubscription: ARM_Connection
     registry: anshenormdev
-    repository: conregistry:66
+    repository: conregistry:7
 
 stages:
   - stage: stage1
