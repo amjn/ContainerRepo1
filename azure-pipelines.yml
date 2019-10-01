@@ -17,7 +17,7 @@ resources:
     resourceGroup: RMDev
     azureSubscription: Azure_Rm_Manual
     registry: anshenormdev
-    repository: conregistry
+    repository: conregistry:7
 
 stages:
   - stage: stage1
