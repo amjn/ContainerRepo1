@@ -15,9 +15,9 @@ resources:
   - container: ACRResourceLatest
     type: ACR
     resourceGroup: RMDev
-    azureSubscription: Azure_Rm_Manual
+    azureSubscription: ARM_Manual
     registry: anshenormdev
-    repository: conregistry
+    repository: containerRegistry:1
 
 stages:
   - stage: stage1
