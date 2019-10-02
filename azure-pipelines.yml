@@ -16,8 +16,8 @@ resources:
     type: ACR
     resourceGroup: RMDev
     azureSubscription: ARM_Manual
-    registry: anshenormdev
-    repository: containerRegistry:1
+    registry: abhisheaAcr
+    repository: conrepo2:5
 
 stages:
   - stage: stage1
