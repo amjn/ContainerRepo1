@@ -16,7 +16,7 @@ resources:
     type: ACR
     resourceGroup: RMDev
     azureSubscription: ARM
-    image: ConRepo1
+    # image: ConRepo1
     registry: abhisheaAcr
     repository: ConRepo1
 
