@@ -14,8 +14,8 @@ resources:
   #   repository: testimage:56
   - container: ACRResourceLatest
     type: ACR
-    resourceGroup: RMDev
     azureSubscription: ARM_Manual
+    resourceGroup: RMDev
     registry: abhisheaAcr
     repository: ConRepo1:1
 
