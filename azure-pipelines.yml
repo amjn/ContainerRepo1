@@ -1,7 +1,7 @@
 resources:
   containers:
   - container: ACRResourceLatest
-    type: ACR
+    type: AzureContainerRepository
     azureSubscription: ARM_Manual
     resourceGroup: RMDev
     registry: asmittaacr
