@@ -1,11 +1,11 @@
 resources:
   containers:
-  - container: ACRResourceLatest
-    type: ACR
-    azureSubscription: ARM_Manual
-    resourceGroup: RMDev
-    registry: asmittaacr
-    repository: iashishmittal/docker-acr
+  # - container: ACRResourceLatest
+  #   type: ACR
+  #   azureSubscription: ARM_Manual
+  #   resourceGroup: RMDev
+  #   registry: asmittaacr
+  #   repository: iashishmittal/docker-acr
   # - container: ACRResourceLatest
   #   type: ACR
   #   resourceGroup: RMDev
