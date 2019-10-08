@@ -13,8 +13,10 @@ resources:
   #   registry: anshenormdev
   #   repository: testimage:56
   - container: ACRResourceLatest
+    type: ACR
     resourceGroup: RMDev
     subscription: ARM
+    image: ConRepo1
     registry: abhisheaAcr
     repository: ConRepo1
 
