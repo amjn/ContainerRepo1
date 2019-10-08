@@ -13,7 +13,7 @@ resources:
   #   registry: anshenormdev
   #   repository: testimage:56
   - container: ACRResourceLatest
-    type: ACR
+    type: DcokerRegistry
     resourceGroup: RMDev
     azureSubscription: ARM
     registry: abhisheaAcr
