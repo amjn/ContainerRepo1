@@ -15,8 +15,7 @@ resources:
   - container: ACRResourceLatest
     type: ACR
     resourceGroup: RMDev
-    azureSubscription: ARM
-    # image: ConRepo1
+    azureSubscription: ARM_Manual
     registry: abhisheaAcr
     repository: ConRepo1
 
