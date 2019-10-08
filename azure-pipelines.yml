@@ -17,7 +17,7 @@ resources:
     resourceGroup: RMDev
     azureSubscription: ARM_Manual
     registry: abhisheaAcr
-    repository: conrepo1:12
+    repository: ConRepo1:1
 
 stages:
   - stage: stage1
