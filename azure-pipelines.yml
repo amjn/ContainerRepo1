@@ -1,23 +1,23 @@
 resources:
   containers:
-  - container: ACRResourceLatest
-    type: ACR
-    azureSubscription: ARM_Manual
-    resourceGroup: RMDev
-    registry: asmittaacr
-    repository: iashishmittal/docker-acr
+  # - container: ACRResourceLatest
+  #   type: ACR
+  #   azureSubscription: ARM_Manual
+  #   resourceGroup: RMDev
+  #   registry: asmittaacr
+  #   repository: iashishmittal/docker-acr
   # - container: ACRResourceLatest
   #   type: ACR
   #   resourceGroup: RMDev
   #   azureSubscription: ARM_Connection:31ad5ccae63ae276641df14298dea6b55bb711e3
   #   registry: anshenormdev
   #   repository: testimage:56
-  # - container: ACRResourceLatest
-  #   type: ACR
-  #   azureSubscription: ARM_Manual
-  #   resourceGroup: RMDev
-  #   registry: abhisheaAcr
-  #   repository: ConRepo1:1
+  - container: ACRResourceLatest
+    type: ACR
+    azureSubscription: ARM_Manual
+    resourceGroup: RMDev
+    registry: abhisheaAcr
+    repository: conrepo2:2
 
 stages:
   - stage: stage1
@@ -36,6 +36,6 @@ stages:
               Write-Host $(resources.container.ACRResourceLatest.repository)
               Write-Host $(resources.container.ACRResourceLatest.tag)
               Write-Host $(resources.container.ACRResourceLatest.digest)
-# Write-Host $(resources.container.ACRResourceLatest.location)
+              Write-Host $(resources.container.ACRResourceLatest.location)
 
 
