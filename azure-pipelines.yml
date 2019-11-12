@@ -19,8 +19,8 @@ resources:
   #   registry: abhisheaAcr
   #   repository: conrepo11
   - container: ACRResourceLatest
-    connection: DockerHub
-    image: conrepo55
+    endpoint: DockerHub
+    image: amjadocker/conrepo55
 
 stages:
   - stage: stage1
