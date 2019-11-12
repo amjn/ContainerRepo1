@@ -20,7 +20,7 @@ resources:
   #   repository: conrepo11
   - container: ACRResourceLatest
     connection: DockerHub
-    image: amjadocker/conrepo55
+    image: conrepo55
 
 stages:
   - stage: stage1
