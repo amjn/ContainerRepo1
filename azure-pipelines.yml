@@ -39,6 +39,6 @@ stages:
               Write-Host $(resources.container.ACRResourceLatest.repository)
               Write-Host $(resources.container.ACRResourceLatest.tag)
               Write-Host $(resources.container.ACRResourceLatest.digest)
-              Write-Host $(resources.container.ACRResourceLatest.location)
+            # Write-Host $(resources.container.ACRResourceLatest.location)
 
 
