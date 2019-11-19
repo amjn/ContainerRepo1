@@ -15,9 +15,9 @@ resources:
   - container: ACRResourceLatest
     type: ACR
     azureSubscription: ARM_Manual
-    resourceGroup: abhisheaAcr
+    resourceGroup: anumitaReg
     registry: abhisheaAcr
-    repository: ACRRepo1
+    repository: acrrepo1
   # - container: DockerHubContainer
   #   endpoint: DockerHubConnection
   #   image: amjadocker/conrepo55
