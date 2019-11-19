@@ -15,7 +15,7 @@ resources:
   - container: ACRResourceLatest
     type: ACR
     azureSubscription: ARM_Manual
-    resourceGroup: RMDev
+    resourceGroup: abhisheaAcr
     registry: abhisheaAcr
     repository: ACRRepo1
   # - container: DockerHubContainer
