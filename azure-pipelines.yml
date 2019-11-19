@@ -17,9 +17,9 @@ resources:
     azureSubscription: ARM_Manual
     resourceGroup: RMDev
     registry: abhisheaAcr
-    repository: conrepo11
+    repository: ACRRepo1
   - container: DockerHubContainer
-    endpoint: NewDockerConn
+    endpoint: DockerHubConnection
     image: amjadocker/conrepo55
 
 stages:
