@@ -12,12 +12,12 @@ resources:
   #   azureSubscription: ARM_Connection:31ad5ccae63ae276641df14298dea6b55bb711e3
   #   registry: anshenormdev
   #   repository: testimage:56
-  - container: ACRResourceLatest
-    type: ACR
-    azureSubscription: ARM_Manual
-    resourceGroup: RMDev
-    registry: abhisheaAcr
-    repository: ACRRepo1
+  # - container: ACRResourceLatest
+  #   type: ACR
+  #   azureSubscription: ARM_Manual
+  #   resourceGroup: RMDev
+  #   registry: abhisheaAcr
+  #   repository: ACRRepo1
   - container: DockerHubContainer
     endpoint: DockerHubConnection
     image: amjadocker/conrepo55
@@ -34,12 +34,12 @@ stages:
           inputs:
             targetType: 'inline'
             script: |
-              Write-Host $(resources.container.ACRResourceLatest.type)
+              Write-Host $(resources.container.DockerHubContainer.type)
               
-              Write-Host $(resources.container.ACRResourceLatest.tag)
-              Write-Host $(resources.container.ACRResourceLatest.digest)
+              Write-Host $(resources.container.DockerHubContainer.tag)
+              Write-Host $(resources.container.DockerHubContainer.digest)
             
-              Write-Host $(resources.container.ACRResourceLatest.repository)
+              Write-Host $(resources.container.DockerHubContainer.repository)
             # Write-Host $(resources.container.ACRResourceLatest.registry)
             # Write-Host $(resources.container.ACRResourceLatest.location)
 
