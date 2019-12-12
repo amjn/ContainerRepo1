@@ -34,12 +34,12 @@ stages:
           inputs:
             targetType: 'inline'
             script: |
-              Write-Host $(resources.container.DockerHubContainer.type)
+              Write-Host $(resources.container.ACRResourceLatest.type)
               
-              Write-Host $(resources.container.DockerHubContainer.tag)
-              Write-Host $(resources.container.DockerHubContainer.digest)
+              Write-Host $(resources.container.ACRResourceLatest.tag)
+              Write-Host $(resources.container.ACRResourceLatest.digest)
             
-              Write-Host $(resources.container.DockerHubContainer.repository)
+              Write-Host $(resources.container.ACRResourceLatest.repository)
             # Write-Host $(resources.container.ACRResourceLatest.registry)
             # Write-Host $(resources.container.ACRResourceLatest.location)
 
