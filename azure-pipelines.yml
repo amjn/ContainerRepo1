@@ -17,10 +17,10 @@ resources:
     azureSubscription: ARM_Manual
     resourceGroup: anumitaReg
     registry: abhisheaAcr
-    repository: acrrepo1
+    repository: acr_container_repo1
   - container: DockerHubContainer
     endpoint: DockerHubConnection
-    image: amjadocker/conrepo55
+    image: amjadocker/DockerContainerRepo11
 
 stages:
   - stage: stage1
