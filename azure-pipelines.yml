@@ -20,7 +20,7 @@ resources:
   #   repository: acr_container_repo1
   - container: DockerHubContainer
     endpoint: DockerHubConnection
-    image: DockerContainerRepo11
+    image: amjadocker/DockerContainerRepo11
 
 stages:
   - stage: stage1
