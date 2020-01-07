@@ -18,9 +18,9 @@ resources:
     resourceGroup: anumitaReg
     registry: abhisheaAcr
     repository: acr_container_repo1
-  # - container: DockerHubContainer
-  #   endpoint: DockerHubConnection
-  #   image: amjadocker/DockerContainerRepo11
+  - container: DockerHubContainer
+    endpoint: DockerHubConnection
+    image: amjadocker/DockerContainerRepo11
 
 stages:
   - stage: stage1
